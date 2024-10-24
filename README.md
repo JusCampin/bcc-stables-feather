@@ -1,5 +1,7 @@
 # bcc-stables
 
+## WIP for Feather Framework
+
 ## Description
 Are you ready to embark on a journey through the untamed wilderness of the Old West? Look no further than bcc-stables, where your trusty steed awaits!
 Personalize your horse with unique mane styles, tail variations, coat colors, and stylish accessories.
@@ -68,18 +70,18 @@ Groom, feed, and clean your horse to keep them at peak performance.
 - `/horseWrithe` *Dev Mode Only* - Set horse to writhe state to test reviving.
 
 ## Dependencies
-- [vorp_core](https://github.com/VORPCORE/vorp-core-lua)
-- [vorp_inventory](https://github.com/VORPCORE/vorp_inventory-lua)
-- [bcc-utils](https://github.com/BryceCanyonCounty/bcc-utils)
+- [feather-core](https://github.com/FeatherFramework/feather-core)
+- [feather-inventory](https://github.com/FeatherFramework/feather-inventory)
 - [feather-menu](https://github.com/FeatherFramework/feather-menu/releases)
 
 ## Installation
 - Make sure dependencies are installed/updated and ensured before this script
 - Download the latest release `bcc-stables.zip` at [/releases/latest](https://github.com/BryceCanyonCounty/bcc-stables/releases/latest)
-- Add `bcc-stables` folder to your resources folder
-- Add `ensure bcc-stables` to your `resources.cfg`
+- Add `bcc-stables` folder from this repo to your resources folder
+  -  **Delete the `ui` folder and install the `ui` folder from the above release**
+- Add `ensure bcc-stables` to your `server.cfg`
 - Run the included database file `bcc-stables.sql`
-- Add images from `img` folder to: `...\vorp_inventory\html\img\items`
+- Add images from `img` folder to: `...\feather-inventory\ui\images\items`
 - Restart server
 
 ## Credits

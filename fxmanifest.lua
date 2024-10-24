@@ -36,7 +36,7 @@ files {
 }
 
 name 'bcc-stables'
-version '1.4.19'
+version '1.0.0'
 github_version_check 'true'
 github_version_type 'file'
-github_link 'https://github.com/BryceCanyonCounty/bcc-stables'
+github_link 'https://github.com/JusCampin/bcc-stables-feather'
